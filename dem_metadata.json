@@ -1,0 +1,45 @@
+{
+  "name": "Roads at Risk - Perth Amboy DEM",
+  "source": "USGS 3DEP Bare Earth DEM Dynamic ImageServer",
+  "sourceUrl": "https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer",
+  "sourceDescription": "USGS 3D Elevation Program (3DEP) Bare Earth DEM Dynamic service, retrieved for the Roads at Risk municipal rollout.",
+  "downloadedAt": "2026-08-10",
+  "processing": "Exported from USGS 3DEP at municipal extent, masked to the Perth Amboy boundary, resampled to 1.524 m / 5 ft pixels, and compressed as a Cloud Optimized GeoTIFF.",
+  "horizontalCrs": "EPSG:3857",
+  "verticalUnits": "meters",
+  "displayElevationUnits": "feet",
+  "pixelSizeMeters": 1.524,
+  "pixelSizeFeet": 4.99999999998,
+  "adaptiveResolution": false,
+  "width": 3038,
+  "height": 4792,
+  "nodata": -999999,
+  "minMeters": -1.62,
+  "maxMeters": 45.639,
+  "meanMeters": 13.539,
+  "stdDevMeters": 11.271,
+  "minFeet": -5.314960629900001,
+  "maxFeet": 149.734251967905,
+  "webMercatorBounds": [
+    -8270112.010041,
+    4937940.114615,
+    -8265482.098041001,
+    4945243.122615
+  ],
+  "leafletBounds": [
+    [
+      40.4936569,
+      -74.2916802
+    ],
+    [
+      40.5435253,
+      -74.2500973
+    ]
+  ],
+  "files": {
+    "demCog": "perth_amboy_dem_5ft_cog.tif",
+    "hillshadeCog": "perth_amboy_hillshade_cog.tif",
+    "hillshadePng": "perth_amboy_hillshade.png",
+    "boundaryGeojson": "perth_amboy_boundary.geojson"
+  }
+}
